@@ -1,38 +1,33 @@
-/* Body styling */
 body {
   margin: 0;
   padding: 0;
-  background: #000; /* black background */
+  background: #000; 
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: Cinzel, serif;
-  color: #FFFFFF; /* default text color */
+  color: #FFFFFF; 
 }
 
-/* Centered text above logo */
 .center-text {
   text-align: center;
   margin-top: 30px;
 }
 
-/* Logo styling */
 .logo {
   max-width: 400px;
   margin: 15px 0 50px 0;
   display: block;
 }
 
-/* Cards container */
 .card-container {
   display: flex;
   justify-content: center;
   gap: 20px;
   margin-top: 50px;
-  flex-wrap: wrap; /* wraps cards on small screens */
+  flex-wrap: wrap; 
 }
 
-/* Card styles */
 .card {
   width: 250px;
   height: 150px;
@@ -64,7 +59,6 @@ body {
   box-shadow: 0 4px 8px rgba(0,0,0,0.5);
 }
 
-/* Front of card */
 .card-front {
   background: #222;
 }
@@ -75,7 +69,6 @@ body {
   object-fit: cover;
 }
 
-/* Back of card */
 .card-back {
   background: #444;
   color: #000000;
@@ -91,32 +84,31 @@ body {
 .card-back h3 {
   margin: 0 0 10px;
   font-size: 18px;
-  color: #ffffff; /* hero name color */
+  color: #ffffff; 
 }
 
-/* Different colors for hero types */
 .card-back h4.strength {
-  color: #d03d33; /* red */
+  color: #d03d33;
 }
 
 .card-back h4.agility {
-  color: #008000; /* green */
+  color: #008000; 
 }
 
 .card-back h4.intelligence {
-  color: #94cad0; /* blue */
+  color: #94cad0;
 }
 
 .card-back p {
   margin: 0;
 }
 
-/* Hero name hyperlink styling */
 .hero-link {
-  color: #FFFFFF;           /* white by default */
-  text-decoration: underline; /* underlined */
+  color: #FFFFFF;          
+  text-decoration: underline;
 }
 
 .hero-link:hover {
-  color: #ffcc00;           /* hover color */
+  color: #ffcc00;          
 }
+
